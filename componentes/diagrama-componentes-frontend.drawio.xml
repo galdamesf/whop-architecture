@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
+  <diagram id="fCuYOhNVu-cr8N_zTDPp" name="Página-4">
+    <mxGraphModel dx="1149" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=2;strokeColor=#1E1E1E;fillColor=#F0F0F0;" value="📁 ROOT LAYOUT" vertex="1">
+          <mxGeometry height="200" width="890" x="1190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-3" parent="7I8bpIaK5Ol9Bu1xO1Zv-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E1E1E;shadow=1;fontSize=11;align=left;" value="GLOBAL PROVIDERS:&lt;br&gt;AuthProvider | ThemeProvider | QueryProvider" vertex="1">
+          <mxGeometry height="40" width="890" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-4" parent="7I8bpIaK5Ol9Bu1xO1Zv-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E1E1E;shadow=1;fontSize=11;align=left;" value="HEADER COMPONENT:&lt;br&gt;Logo | Navigation | UserMenu | NotificationBell" vertex="1">
+          <mxGeometry height="40" width="890" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-5" parent="7I8bpIaK5Ol9Bu1xO1Zv-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E1E1E;shadow=1;fontSize=11;" value="FOOTER COMPONENT" vertex="1">
+          <mxGeometry height="40" width="890" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-6" parent="7I8bpIaK5Ol9Bu1xO1Zv-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E1E1E;shadow=1;fontSize=11;align=left;" value="&amp;nbsp;ROUTES:&lt;br&gt;/ | /login | /register | /dashboard | /marketplace | /account" vertex="1">
+          <mxGeometry height="50" width="890" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=2;strokeColor=#0066CC;fillColor=#E6F2FF;" value="🔐 FEATURE AUTH" vertex="1">
+          <mxGeometry height="340" width="280" x="700" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-8" parent="7I8bpIaK5Ol9Bu1xO1Zv-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0066CC;shadow=1;fontSize=11;align=left;" value="COMPONENTS:&lt;br&gt;• LoginForm&lt;br&gt;• RegisterForm&lt;br&gt;• ForgotPasswordForm&lt;br&gt;• ResetPasswordForm&lt;br&gt;• TwoFactorSetup&lt;br&gt;• OAuthButtons" vertex="1">
+          <mxGeometry height="120" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-9" parent="7I8bpIaK5Ol9Bu1xO1Zv-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0066CC;shadow=1;fontSize=11;align=left;" value="&amp;nbsp;HOOKS:&lt;br&gt;• useAuth()&lt;br&gt;• useCurrentUser()&lt;br&gt;• useSession()" vertex="1">
+          <mxGeometry height="90" width="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-10" parent="7I8bpIaK5Ol9Bu1xO1Zv-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0066CC;shadow=1;fontSize=11;align=left;" value="SERVICES:&lt;br&gt;auth.service.ts&lt;br&gt;POST /auth/register&lt;br&gt;POST /auth/login&lt;br&gt;POST /auth/forgot-password" vertex="1">
+          <mxGeometry height="100" width="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=2;strokeColor=#00853E;fillColor=#E6FFE6;" value="🏪 FEATURE MARKETPLACE" vertex="1">
+          <mxGeometry height="360" width="280" x="1240" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-12" parent="7I8bpIaK5Ol9Bu1xO1Zv-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00853E;shadow=1;fontSize=11;align=left;" value="COMPONENTS:&lt;br&gt;• MarketplaceGrid&lt;br&gt;• StoreCard&lt;br&gt;• ProductCard&lt;br&gt;• FilterSidebar&lt;br&gt;• PriceRangeSlider&lt;br&gt;• ProductReviews&lt;br&gt;• StarRating" vertex="1">
+          <mxGeometry height="140" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-13" parent="7I8bpIaK5Ol9Bu1xO1Zv-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00853E;shadow=1;fontSize=11;align=left;" value="HOOKS:&lt;br&gt;• useMarketplace()&lt;br&gt;• useFilters()&lt;br&gt;• useProductReviews()" vertex="1">
+          <mxGeometry height="80" width="280" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-14" parent="7I8bpIaK5Ol9Bu1xO1Zv-11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00853E;shadow=1;fontSize=11;align=left;" value="SERVICES:&lt;br&gt;marketplace.service.ts&lt;br&gt;GET /marketplace/stores&lt;br&gt;GET /marketplace/products&lt;br&gt;GET /products/:id/reviews" vertex="1">
+          <mxGeometry height="110" width="280" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-15" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=2;strokeColor=#CC6600;fillColor=#FFF2E6;" value="🛒 FEATURE STORE" vertex="1">
+          <mxGeometry height="200" width="280" x="2050" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-16" parent="7I8bpIaK5Ol9Bu1xO1Zv-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC6600;shadow=1;fontSize=11;align=left;" value="COMPONENTS:&lt;br&gt;• StoreLanding&lt;br&gt;• BuyButton&lt;br&gt;• ShoppingCart&lt;br&gt;• CheckoutSummary&lt;br&gt;• PricingBadge&lt;br&gt;• StorePoliciesPage" vertex="1">
+          <mxGeometry height="120" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-17" parent="7I8bpIaK5Ol9Bu1xO1Zv-15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC6600;shadow=1;fontSize=11;align=left;" value="🪝 HOOKS:&#xa;• useCart()&#xa;• useCheckout()" vertex="1">
+          <mxGeometry height="50" width="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-20" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=2;strokeColor=#4B0082;fillColor=#E6E6FA;" value="📊 FEATURE SELLER DASHBOARD" vertex="1">
+          <mxGeometry height="340" width="300" x="2450" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-21" parent="7I8bpIaK5Ol9Bu1xO1Zv-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4B0082;shadow=1;fontSize=11;align=left;" value="COMPONENTS:&lt;br&gt;• OverviewCards&lt;br&gt;• SalesChart&lt;br&gt;• CustomerTable&lt;br&gt;• ResendAccessButton&lt;br&gt;• SuspendButton&lt;br&gt;• ExportCSVButton" vertex="1">
+          <mxGeometry height="130" width="300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-22" parent="7I8bpIaK5Ol9Bu1xO1Zv-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4B0082;shadow=1;fontSize=11;align=left;" value="HOOKS:&lt;br&gt;• useSellerMetrics()&lt;br&gt;• useSellerProducts()&lt;br&gt;• useSellerCustomers()" vertex="1">
+          <mxGeometry height="90" width="300" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-23" parent="7I8bpIaK5Ol9Bu1xO1Zv-20" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#4B0082;shadow=1;fontSize=11;align=left;" value="SERVICES:&lt;br&gt;seller.service.ts&lt;br&gt;GET /seller/overview&lt;br&gt;GET /seller/products&lt;br&gt;GET /seller/reports/sales.csv" vertex="1">
+          <mxGeometry height="90" width="300" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-24" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=2;strokeColor=#CC0000;fillColor=#FFE6E6;" value="🔔 FEATURE NOTIFICATIONS" vertex="1">
+          <mxGeometry height="330" width="280" x="1290" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-25" parent="7I8bpIaK5Ol9Bu1xO1Zv-24" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC0000;shadow=1;fontSize=11;align=left;" value="COMPONENTS:&lt;br&gt;• NotificationBell&lt;br&gt;• NotificationBadge&lt;br&gt;• NotificationDropdown&lt;br&gt;• NotificationItem&lt;br&gt;• MarkAllReadButton&lt;br&gt;• WebhookEndpointForm" vertex="1">
+          <mxGeometry height="130" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-26" parent="7I8bpIaK5Ol9Bu1xO1Zv-24" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC0000;shadow=1;fontSize=11;align=left;" value="HOOKS:&lt;br&gt;• useNotifications()&lt;br&gt;• useUnreadCount()&lt;br&gt;• useWebhooks()" vertex="1">
+          <mxGeometry height="80" width="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-27" parent="7I8bpIaK5Ol9Bu1xO1Zv-24" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC0000;shadow=1;fontSize=11;align=left;" value="SERVICES:&lt;br&gt;notifications.service.ts&lt;br&gt;GET /me/notifications&lt;br&gt;POST /me/notifications/mark-as-read&lt;br&gt;POST /seller/webhooks" vertex="1">
+          <mxGeometry height="90" width="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-28" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=2;strokeColor=#1E6F9F;fillColor=#E1F0FA;" value="👤 FEATURE ACCOUNT (BUYER)" vertex="1">
+          <mxGeometry height="330" width="280" x="1690" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-29" parent="7I8bpIaK5Ol9Bu1xO1Zv-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E6F9F;shadow=1;fontSize=11;align=left;" value="COMPONENTS:&lt;br&gt;• MyProductsList&lt;br&gt;• DownloadButton&lt;br&gt;• LicenseCard&lt;br&gt;• SubscriptionCard&lt;br&gt;• PaymentHistoryTable&lt;br&gt;• ProfileForm" vertex="1">
+          <mxGeometry height="130" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-30" parent="7I8bpIaK5Ol9Bu1xO1Zv-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E6F9F;shadow=1;fontSize=11;align=left;" value="HOOKS:&lt;br&gt;• useMyProducts()&lt;br&gt;• useSubscriptions()&lt;br&gt;• usePaymentHistory()" vertex="1">
+          <mxGeometry height="80" width="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-31" parent="7I8bpIaK5Ol9Bu1xO1Zv-28" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E6F9F;shadow=1;fontSize=11;align=left;" value="SERVICES:&lt;br&gt;account.service.ts&lt;br&gt;GET /me/products&lt;br&gt;GET /me/subscriptions&lt;br&gt;GET /me/payments" vertex="1">
+          <mxGeometry height="90" width="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-32" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=2;strokeColor=#5E5E5E;fillColor=#F5F5F5;" value="CAPA COMPARTIDA / GLOBAL" vertex="1">
+          <mxGeometry height="230" width="900" x="750" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-33" parent="7I8bpIaK5Ol9Bu1xO1Zv-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E5E5E;shadow=1;fontSize=11;align=left;" value="UI COMPONENTS:&lt;br&gt;Button | Input | Card | Modal | Dialog | Dropdown | Tabs | Alert | Badge" vertex="1">
+          <mxGeometry height="50" width="900" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-34" parent="7I8bpIaK5Ol9Bu1xO1Zv-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E5E5E;shadow=1;fontSize=11;align=left;" value="LIB/UTILS:&lt;br&gt;cn() | formatPrice() | dateUtils() | validators() | constants" vertex="1">
+          <mxGeometry height="50" width="900" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-35" parent="7I8bpIaK5Ol9Bu1xO1Zv-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E5E5E;shadow=1;fontSize=11;align=left;" value="TYPES GLOBALES:&lt;br&gt;User | Product | Order | Store | Subscription | APIResponse" vertex="1">
+          <mxGeometry height="50" width="900" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-36" parent="7I8bpIaK5Ol9Bu1xO1Zv-32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#5E5E5E;shadow=1;fontSize=11;align=left;" value="API CLIENT BASE:&lt;br&gt;fetch wrapper | interceptors | error handling | auth header" vertex="1">
+          <mxGeometry height="50" width="900" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-37" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=blockThin;endFill=1;fontSize=10;dashed=1;" target="7I8bpIaK5Ol9Bu1xO1Zv-25" value="contiene">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1610" y="935" />
+            </Array>
+            <mxPoint x="1610" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-38" edge="1" parent="1" source="7I8bpIaK5Ol9Bu1xO1Zv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=blockThin;endFill=1;fontSize=10;" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="700" />
+              <mxPoint x="1160" y="700" />
+            </Array>
+            <mxPoint x="1160" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-39" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=blockThin;endFill=1;fontSize=10;" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="470" />
+              <mxPoint x="1160" y="700" />
+            </Array>
+            <mxPoint x="1240" y="470" as="sourcePoint" />
+            <mxPoint x="1160" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-41" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=blockThin;endFill=1;fontSize=10;" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2598.89" y="759.94" />
+            </Array>
+            <mxPoint x="2598.89" y="769.94" as="sourcePoint" />
+            <mxPoint x="2599" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-42" edge="1" parent="1" source="7I8bpIaK5Ol9Bu1xO1Zv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=blockThin;endFill=1;fontSize=10;" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1710" y="1080" />
+              <mxPoint x="1710" y="1420" />
+              <mxPoint x="1160" y="1420" />
+            </Array>
+            <mxPoint x="1160" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-43" edge="1" parent="1" source="7I8bpIaK5Ol9Bu1xO1Zv-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=blockThin;endFill=1;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1830" y="1080" />
+              <mxPoint x="1710" y="1080" />
+              <mxPoint x="1710" y="1420" />
+              <mxPoint x="1160" y="1420" />
+            </Array>
+            <mxPoint x="1920" y="1130" as="sourcePoint" />
+            <mxPoint x="1160" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-44" edge="1" parent="1" source="7I8bpIaK5Ol9Bu1xO1Zv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#CC6600;endArrow=blockThin;endFill=1;fontSize=10;" target="7I8bpIaK5Ol9Bu1xO1Zv-18" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-45" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=1;strokeColor=#000000;fillColor=#FFFFFF;" value="📋 LEYENDA" vertex="1">
+          <mxGeometry height="115" width="190" x="2130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-46" parent="7I8bpIaK5Ol9Bu1xO1Zv-45" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;" value="📁 Components React" vertex="1">
+          <mxGeometry height="15" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-47" parent="7I8bpIaK5Ol9Bu1xO1Zv-45" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;" value="🪝 Custom Hooks" vertex="1">
+          <mxGeometry height="15" width="190" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-48" parent="7I8bpIaK5Ol9Bu1xO1Zv-45" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;" value="📡 Services (API)" vertex="1">
+          <mxGeometry height="15" width="190" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-49" parent="7I8bpIaK5Ol9Bu1xO1Zv-45" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;" value="📊 Zustand Store" vertex="1">
+          <mxGeometry height="15" width="190" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-50" parent="7I8bpIaK5Ol9Bu1xO1Zv-45" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;" value="🛣️ Routes" vertex="1">
+          <mxGeometry height="15" width="190" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-51" parent="7I8bpIaK5Ol9Bu1xO1Zv-45" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;" value="──── usa / contiene" vertex="1">
+          <mxGeometry height="15" width="190" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-52" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=blockThin;endFill=1;fontSize=10;" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160" y="1420" />
+              <mxPoint x="1160" y="1420" />
+            </Array>
+            <mxPoint x="2160" y="720" as="sourcePoint" />
+            <mxPoint x="1160" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC6600;shadow=1;fontSize=11;align=left;" value="SERVICES:&lt;br&gt;store.service.ts&lt;br&gt;POST /checkout/create&lt;br&gt;GET /public/stores/:slug" vertex="1">
+          <mxGeometry height="80" width="170" x="2080" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="7I8bpIaK5Ol9Bu1xO1Zv-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CC6600;shadow=1;fontSize=11;align=left;" value="ZUSTAND STORE:&lt;br&gt;cart.store.ts (persistencia)" vertex="1">
+          <mxGeometry height="50" width="160" x="2080" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eBeyz1NZLWQZ2xfK_Jag-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;strokeWidth=2;strokeColor=#00853E;fillColor=#E6FFE6;" value="📦 FEATURE PRODUCTS 🆕" vertex="1">
+          <mxGeometry height="470" width="280" x="2450" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="eBeyz1NZLWQZ2xfK_Jag-11" parent="eBeyz1NZLWQZ2xfK_Jag-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00853E;shadow=1;fontSize=11;align=left;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;COMPONENTS:&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• ProductForm (crear/editar)&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• ProductTypeSelector&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• PricingForm&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• LicenseUploader&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• LicenseList&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• AccessRulesForm&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• ProductStatusBadge&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• ProductDetailPage&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBeyz1NZLWQZ2xfK_Jag-12" parent="eBeyz1NZLWQZ2xfK_Jag-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00853E;shadow=1;fontSize=11;align=left;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;HOOKS:&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• useProduct()&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• useProductForm()&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;• useLicenses()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="280" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="eBeyz1NZLWQZ2xfK_Jag-13" parent="eBeyz1NZLWQZ2xfK_Jag-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00853E;shadow=1;fontSize=11;align=left;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;TYPES: product.types.ts&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;ProductType: file | license | discord&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;| telegram | api_key | course | software&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;PricingModel: one_time | subscription&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="280" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qk3QNmPbDzu4ZQnCZuun-6" parent="eBeyz1NZLWQZ2xfK_Jag-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#00853E;shadow=1;fontSize=11;align=left;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;SERVICES: product.service.ts&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;GET/POST /products&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;PUT/DELETE /products/:id&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;PUT /products/:id/pricing&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;POST /products/:id/licenses/bulk&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="280" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="qk3QNmPbDzu4ZQnCZuun-7" edge="1" parent="1" source="eBeyz1NZLWQZ2xfK_Jag-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=blockThin;endFill=1;fontSize=10;exitX=-0.005;exitY=0.094;exitDx=0;exitDy=0;exitPerimeter=0;" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2360" y="560" />
+              <mxPoint x="2360" y="1420" />
+              <mxPoint x="1160" y="1420" />
+            </Array>
+            <mxPoint x="2440" y="570" as="sourcePoint" />
+            <mxPoint x="1160" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qk3QNmPbDzu4ZQnCZuun-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;endArrow=blockThin;endFill=1;fontSize=10;" value="usa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2600" y="1420" />
+              <mxPoint x="1160" y="1420" />
+              <mxPoint x="1160" y="1470" />
+            </Array>
+            <mxPoint x="2600" y="1350" as="sourcePoint" />
+            <mxPoint x="1160" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
