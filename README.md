@@ -104,9 +104,3 @@ docs: corrige flujo de compra en manejo de reintentos
 docs: agrega diagrama de contenedores v2
 ```
 
----
-
-## Repositorios relacionados
-
-- **whop-backend** — Código fuente del backend en Node.js / NestJS
-- **whop-frontend** — Código fuente del frontend en Next.js 15
