@@ -82,21 +82,6 @@ Documenta el proceso completo mediante el cual un comprador adquiere un producto
 
 ---
 
-## Convenciones visuales
-
-Todos los diagramas de flujo siguen la misma convención de colores:
-
-| Color                    | Significado              |
-| ------------------------ | ------------------------ |
-| 🟢 Verde                 | Inicio / Fin del proceso |
-| 🔵 Azul                  | Acción del Usuario       |
-| 🟣 Morado                | Acción del Sistema       |
-| 🟠 Naranja               | Decisión (SÍ / NO)       |
-| 🔴 Rojo oscuro           | Error / Fin alternativo  |
-| 🟣 Morado con borde rosa | Servicio Externo (stub)  |
-
----
-
 ## Herramienta utilizada
 
 Todos los diagramas fueron creados con **[draw.io](https://app.diagrams.net)**. Los archivos `.drawio` pueden abrirse y editarse directamente en draw.io. Los archivos `.png` son exportaciones de alta calidad para visualización rápida.
